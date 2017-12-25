@@ -65,12 +65,10 @@ body.active{
 	border-radius:30px;
 	-webkit-transition:.5s ease all;
 	transition:.5s ease all;
-	 width: 200px;
-
+	width: 200px;
 }
 .btn-rounded-white:hover{
 	color:#3498db;
 	background:#fff;
 	text-decoration:none;
-
 }
