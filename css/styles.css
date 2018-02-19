@@ -3,6 +3,10 @@ body{
 	font-size:16px;
 	overflow-y: hidden;
 }
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
 body.active{
 	overflow:hidden;
 	z-index:-1;
