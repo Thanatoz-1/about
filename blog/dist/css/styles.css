@@ -1,5 +1,7 @@
 img{
-	align-self: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
+}
+body{
+	font-size: 16	px;
 }
