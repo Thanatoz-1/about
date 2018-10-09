@@ -2,6 +2,7 @@ body{
 	font-family:'Lato', sans-serif;
 	font-size:16px;
 	overflow-y: hidden;
+	background: #3cfeea;
 }
 .starter-template {
   padding: 40px 15px;
@@ -18,7 +19,7 @@ body.active{
 	height:100vh;
 	min-height:500px;
 	max-height:1080px;
-	background:url(../images/backdrop.jpg);
+	background:url(../images/backdrop.png);
 	background-size:cover;
 	padding:15px;
 	overflow:hidden;
@@ -30,28 +31,33 @@ body.active{
 	left:50%;
 	-webkit-transform:translate(-50%, -50%);
 	transform:translate(-50%, -50%);
-	text-align:center
+	text-align:right
 
 }
 #contact-banner{
 	text-align:right;
 	position: right;
 	font-size: 18px;
-	color: white;
+	color: black;
 	float: right ;
-position: relative;
+	position: relative;
 	z-index:10;
+	padding: 25px;
 	text-align:center
 }
 #contact-banner a{
-	color: white;
-	margin:8px;
+	color: black;
+	margin:12px; 
 }
+
 #lead-content h1,#lead-content h2{
-	margin:0
+	margin:0;
+	text-align: right;
+	-webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: #3cfeea;
 }
 #lead-content h1{
-	color:#fff;
+	color:#000;
 	font-weight:900;
 	font-size:5em;
 	text-transform:uppercase;
@@ -77,16 +83,19 @@ position: relative;
 }
 .btn-rounded-white{
 	display:inline-block;
-	color:#fff;
+	color:#3cfeea;
 	padding:15px 15px;
-	border:3px solid #fff;
-	border-radius:30px;
+	border:1px solid #000;
+	fill:black;
+	text-align: center;
 	-webkit-transition:.5s ease all;
 	transition:.5s ease all;
-	width: 200px;
+	width: 370px;
+	background: #000;
+	margin-top: 20px;
 }
 .btn-rounded-white:hover{
-	color:#3498db;
-	background:#fff;
+	color:#fff;
+	background:#222;
 	text-decoration:none;
 }
