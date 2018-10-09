@@ -2,15 +2,16 @@
 <html class="no-js" lang="en">
     <head>
         <meta charset="utf-8">
-        <metah ttp-equiv="x-ua-compatible" content="ie=edge">
+        <meta ttp-equiv="x-ua-compatible" content="ie=edge">
         <title>Tushar Dhyani</title>
         <meta name="Portfolio page" content="Portfolio page">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link href="./css/bootstrap.min.css" rel="stylesheet">
         <link href="./css/styles.css" rel="stylesheet">
-        
+        <link rel="shortcut icon" href="images/icon.png" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112307793-1"></script>
         <script>
@@ -23,22 +24,22 @@
 
 
     </head>
-    <body>
+    <body onload="typeing()">
         
         <div id="lead">
             <div id="lead-content">
                 <h1>Tushar Dhyani</h1>
 
-                <div>
-                    <h2>I'm <span class="element">basically the candidate you want to hire ! </span><span class="typed-cursor" style="display: none;">|</span></h2>
+<!--                 <div>
+                    <h2>I'm <span class="element"></span><span class="typed-cursor">|</span></h2>
                 </div>
-
+ -->
                 <a href="./files/Resume.pdf" target="_blank" class="btn-rounded-white">Download Resume</a> 
                 <!-- <a href="blog" class="btn-rounded-white">View my blog</a> -->
 
             </div>
                 <div id="contact-banner">
-                        <a href="https://www.linkedin.com/in/tushar-dhyani/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                        <a class='grow' href="https://www.linkedin.com/in/tushar-dhyani/" target="_blank"><i class="fa fa-linkedin"></i></a>
                         <a href="https://www.kaggle.com/thanatoz" target="_blank"><i class="fa fa-kaggle">k</i></a>
                         <a href="https://github.com/Thanatoz-1" target="_blank"><i class="fa fa-github"></i></a>
                         <a href="https://www.facebook.com/tushar.dhyani" target="_blank"><i class="fa fa-facebook"></i></a>
@@ -46,22 +47,20 @@
                         <a href="https://stackoverflow.com/users/9140512/thanatoz?tab=profile" target="_blank"><i class="fa fa-stack-overflow"></i></a>
                 </div>
             <!-- End #lead-content -->
-            <div id="lead-overlay"></div>
-            <!-- End #lead-down -->
-                <!-- <a href="https://facebook.com/" class="text-white"><i style="color: #fff;" class="fa fa-facebook" aria-hidden="true"></i></a> -->
         </div>
         <!-- Firebase API here -->
-
-        <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
+        
+        <script src="./js/animation.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/5.4.0/firebase.js"></script>
         <script>
           // Initialize Firebase
           var config = {
-            apiKey: "AIzaSyBi6-_CvP-Z9IsFLQ39sbcOa1Py2jbdva0",
-            authDomain: "dhyanitushar-ml.firebaseapp.com",
-            databaseURL: "https://dhyanitushar-ml.firebaseio.com",
-            projectId: "dhyanitushar-ml",
-            storageBucket: "",
-            messagingSenderId: "270941647272"
+            apiKey: "AIzaSyBCLnX7EP6OxiHeWwM5_-f3b1VlYrEPLvE",
+            authDomain: "myportfolio-85e65.firebaseapp.com",
+            databaseURL: "https://myportfolio-85e65.firebaseio.com",
+            projectId: "myportfolio-85e65",
+            storageBucket: "myportfolio-85e65.appspot.com",
+            messagingSenderId: "157054195005"
           };
           firebase.initializeApp(config);
         </script>
