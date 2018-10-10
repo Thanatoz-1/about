@@ -37,6 +37,7 @@ body.active{
 	text-align:right;
 	position: right;
 	font-size: 18px;
+	margin: 25px;
 	color: white;
 	float: right ;
 position: relative;
@@ -46,6 +47,7 @@ position: relative;
 #contact-banner a{
 	color: white;
 	margin:8px;
+	padding: 5px;
 }
 #lead-content h1,#lead-content h2{
 	margin:0
