@@ -17,8 +17,8 @@ body.active{
 
 	position:relative;
 	height:100vh;
-	min-height:500px;
-	max-height:1080px;
+	/*min-height:500px;*/
+	/*max-height:1080px;*/
 	background:url(../images/backdrop.png);
 	background-size:cover;
 	padding:15px;
@@ -54,7 +54,7 @@ body.active{
 	margin:0;
 	text-align: right;
 	-webkit-text-stroke-width: 1px;
-   -webkit-text-stroke-color: #3cfeea;
+	-webkit-text-stroke-color: #3cfeea;
 }
 #lead-content h1{
 	color:#000;
@@ -85,7 +85,7 @@ body.active{
 	display:inline-block;
 	color:#3cfeea;
 	padding:15px 15px;
-	border:1px solid #000;
+	border:1px solid #3cfeea;
 	fill:black;
 	text-align: center;
 	-webkit-transition:.5s ease all;
