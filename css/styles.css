@@ -40,7 +40,7 @@ body.active{
 	margin: 25px;
 	color: white;
 	float: right ;
-position: relative;
+	position: relative;
 	z-index:10;
 	text-align:center
 }
@@ -61,10 +61,17 @@ position: relative;
 	line-height:0.9em
 }
 #lead-content h2{
-	color:#999;
+	color: #17a589 ;
 	font-weight:500;
 	font-size:2.25em;
 	margin-bottom:15px
+}
+#lead-content h3{
+	color:#aaa;
+	font-weight:150;
+	/*font-size:2.25em;*/
+	/*margin-bottom:15px*/
+	padding-bottom:25px;
 }
 #lead-overlay{
 	position:absolute;
@@ -80,15 +87,17 @@ position: relative;
 .btn-rounded-white{
 	display:inline-block;
 	color:#fff;
-	padding:15px 15px;
-	border:3px solid #fff;
+	padding:10px 15px;
+	margin: 5px 10px 0px 10px;
+	border:2px solid #fff;
 	border-radius:30px;
 	-webkit-transition:.5s ease all;
 	transition:.5s ease all;
 	width: 200px;
+	text-decoration:none;
 }
 .btn-rounded-white:hover{
-	color:#3498db;
+	color: #17a589 ;
 	background:#fff;
 	text-decoration:none;
 }
