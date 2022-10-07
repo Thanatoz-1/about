@@ -75,8 +75,6 @@ My research interests are in Language models, Generative models, and Speech enha
 <div id="lead">
   <div id="lead-content">
       <a href="./files/Tushar_dhyani_cv.pdf" target="_blank" class="btn-rounded-white">Download Resume</a> 
-      <a href="https://medium.com/@dhyanitushar" target="_blank" class="btn-rounded-white">View my work</a> 
-      <!-- <a href="blog" class="btn-rounded-white">View my blog</a> -->
   </div>
 </div>
 
