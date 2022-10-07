@@ -1,0 +1,66 @@
+site_name: Tushar Dhyani
+site_url: https://tushardhyani.com/
+site_author: Tushar Dhyani
+site_description: >-
+  Tushar Dhyani's portfolio website
+theme:
+  name: material
+  custom_dir: overrides
+  favicon: assets/images/favicon.png
+  logo: assets/images/favicon.png
+  static_templates:
+    - 404.html
+  include_search_page: false
+  search_index_only: true
+
+  # Default values, taken from mkdocs_theme.yml
+  language: en
+  features:
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - header.autohide
+  palette: 
+    - scheme: default
+      primary: black
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch
+        name: dark mode
+    - scheme: slate
+      primary: white
+      accent: deep purple
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: light mode
+plugins: []
+markdown_extensions:
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: false
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true 
+extra:
+  generator: false # To remove the made with Material for MkDocs line from footer.
+  social:
+    - icon: fontawesome/brands/linkedin 
+      link: https://www.linkedin.com/in/tushar-dhyani/
+    - icon: fontawesome/brands/kaggle
+      link: https://kaggle.com/thanatoz
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Thanatoz-1/
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/t_dhyani
+    - icon: fontawesome/brands/instagram 
+      link: https://instagram.com/thanatoz_1
+    
