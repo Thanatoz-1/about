@@ -53,11 +53,14 @@ markdown_extensions:
 extra:
   generator: false # To remove the made with Material for MkDocs line from footer.
   social:
-    - icon: fontawesome/brands/twitter 
-      link: https://twitter.com/t_dhyani
-    - icon: fontawesome/brands/kaggle
-      link: https://kaggle.com/thanatoz
-    - icon: fontawesome/brands/instagram 
-      link: https://instagram.com/thanatoz_1
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/tushar-dhyani/
+    - icon: fontawesome/brands/kaggle
+      link: https://kaggle.com/thanatoz
+    - icon: fontawesome/brands/github 
+      link: https://github.com/Thanatoz-1/
+    - icon: fontawesome/brands/twitter 
+      link: https://twitter.com/t_dhyani
+    - icon: fontawesome/brands/instagram 
+      link: https://instagram.com/thanatoz_1
+    

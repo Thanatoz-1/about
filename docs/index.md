@@ -67,7 +67,7 @@ img{
 <h1>Tushar Dhyani</h1>
 <div max_width="200px" markdown >
 I'm a Master's student at [Institute for Natural Language Processing](https://www.ims.uni-stuttgart.de/) at [University of Stuttgart](https://www.uni-stuttgart.de/).
-My major is in Computational Linguistics with focus on speech enhancement and sound processing. 
+My major is in Computational Linguistics with minor focus in speech enhancement and sound processing. 
 My research interests are in Language models, Generative models, and Speech enhancement.
 
 </div>
