@@ -68,13 +68,14 @@ img{
 <div max_width="200px" markdown >
 I'm a Master's student at [Institute for Natural Language Processing](https://www.ims.uni-stuttgart.de/) at [University of Stuttgart](https://www.uni-stuttgart.de/).
 My major is in Computational Linguistics with minor focus in speech enhancement and sound processing. 
-My research interests are in Language models, Generative models, and Speech enhancement.
+My research interests are in Language models, Transformers, Generative models, and Speech enhancement.
 
 </div>
 
 <div id="lead">
   <div id="lead-content">
       <a href="./files/Tushar_dhyani_cv.pdf" target="_blank" class="btn-rounded-white">Download Resume</a> 
+      <a href="Projects/" class="btn-rounded-white">View my work</a> 
   </div>
 </div>
 
