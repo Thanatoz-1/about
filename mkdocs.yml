@@ -21,18 +21,18 @@ theme:
     - toc.follow
     - header.autohide
   palette: 
-    - scheme: default
-      primary: black
-      accent: deep purple
-      toggle:
-        icon: material/toggle-switch
-        name: dark mode
-    - scheme: slate
-      primary: white
-      accent: deep purple
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: light mode
+    scheme: default
+    primary: black
+    accent: deep purple
+    toggle:
+      icon: material/toggle-switch
+      name: dark mode
+    # - scheme: slate
+    #   primary: white
+    #   accent: deep purple
+    #   toggle:
+    #     icon: material/toggle-switch-off-outline 
+    #     name: light mode
 plugins: []
 markdown_extensions:
   - attr_list
