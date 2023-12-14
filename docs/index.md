@@ -66,7 +66,7 @@ img{
 <center>
 <h1>Tushar Dhyani</h1>
 <div max_width="200px" markdown >
-I'm currently a Master's student at [University of Stuttgart](https://www.uni-stuttgart.de/), specializing in Computational Linguistics at the [Institute for Natural Language Processing](https://www.ims.uni-stuttgart.de/). My main focus within this field is on speech processing, speech restoration, and various audio inverse problems. My research interests encompass speech and language processing with a particular emphasis on solving inverse problems through Generative AI.
+I'm currently a Master's student at [University of Stuttgart](https://www.uni-stuttgart.de/), specializing in Computational Linguistics at the [Institute for Natural Language Processing](https://www.ims.uni-stuttgart.de/). My main focus within this field is on speech processing, speech restoration, and various audio inverse problems. My research interests concern speech and language processing with a particular emphasis on solving inverse problems through Generative AI.
 
 
 </div>
