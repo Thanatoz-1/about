@@ -71,7 +71,9 @@ I started infering the available pretrained models. For my experiments I used th
 - [ByteSep](https://github.com/bytedance/music_source_separation)
 - [Danna-sep](https://github.com/yoyololicon/danna-sep)
 
+Based on a my validation dataset, I found ByteSep to be the perfect candidate for training.
 
+After checking for data consistency, I 
 
 ### Rankings:
 

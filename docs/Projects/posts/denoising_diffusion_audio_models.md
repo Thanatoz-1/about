@@ -1,6 +1,6 @@
 ---
 draft: false 
-date: 2023-02-21 
+date: 2022-02-21 
 hide:
 #   - navigation
   - toc
@@ -15,8 +15,7 @@ links:
   - Projects/index.md
 
 title: Denoising diffusion for speech enhancement
-description: Nullam urna elit, malesuada eget finibus ut, ac tortor.
-  
+description: We used simple diffusion for removing noise from the speech recordings. This project takes mel spectrograms and noises and denoises them for better speech intelligibility.
 ---
 
 
