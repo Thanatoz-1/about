@@ -1,5 +1,44 @@
-# Denoising Diffusion
-> This research is still underway. To read more about it and access my early report, you can send me a request over [email](mailto:dhyanitushar@gmail.com).
+---
+draft: false 
+date: 2022-02-21 
+hide:
+#   - navigation
+  - toc
+categories:
+  - university research
+  - audio
+
+authors:
+  - thanatoz
+
+links:
+  - Projects/index.md
+
+title: Denoising diffusion for speech enhancement
+description: We used simple diffusion for removing noise from the speech recordings. This project takes mel spectrograms and noises and denoises them for better speech intelligibility.
+---
+
+
+<style>
+p{
+text-align: justify;
+text-justify: inter-word;
+}
+
+.MathJax {
+font-size: 2.1em;
+}
+</style>
+
+<center>
+# Speech enhancement on mel-spectrogram using denoising diffusion probablistic models.
+#### <p style="text-align: center;">Tushar Dhyani, Yung-Ching Yang</p>
+<p style="text-align: center;">Institut für Maschinelle Sprachverarbeitung, University of Stuttgart</p>
+
+</center>
+<br/><br/>
+
+> This research has been made available on [Researchgate](https://www.researchgate.net/publication/368883536_Diffusion_Denoising_Probabilistic_Model_-Speech_Enhancement_on_Wave). You can also send me a request over personal [email](mailto:dhyanitushar@gmail.com) to access a pdf copy of the report if you encounter some issues with the link above.
 
 ## Introduction
 Audio recordings in the real world are typically tainted by noise and other distortions. These distortions come from many factors such as environmental noises, and distortions from various kinds of electronics, circuits, and microphones. These noises and distortions cause issues during the perception of speech to the receiver. This project tries to provide a solution to the problem of noise in speech using a generative approach and compares the effectiveness of the generative approach over other existing approaches.

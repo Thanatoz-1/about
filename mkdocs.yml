@@ -1,46 +1,125 @@
 site_name: Tushar Dhyani
 site_url: https://tushardhyani.com/
 site_author: Tushar Dhyani
+
 site_description: >-
-  Tushar Dhyani's portfolio website
+  Welcome to Tushar's Dhyani's projects.
 theme:
   name: material
   custom_dir: overrides
   favicon: assets/images/favicon.png
   logo: assets/images/favicon.png
+  font: 
+    text: Lusitana
   static_templates:
     - 404.html
-  include_search_page: false
-  search_index_only: true
+  # include_search_page: false
+  # search_index_only: true
 
   # Default values, taken from mkdocs_theme.yml
   language: en
+  # features:
+  #   - navigation.tabs
+  #   - navigation.top
+  #   - navigation.tracking
+  #   - header.autohide
+  #   - navigation.prune
+  #   - navigation.path:
+  #       max_length: 3
+  #   - content.tabs.link
   features:
-    - navigation.top
-    - navigation.tracking
-    - toc.follow
-    - header.autohide
+  - announce.dismiss
+  - content.action.edit
+  - content.action.view
+  - content.code.annotate
+  - content.code.copy
+  # - content.code.select
+  # - content.tabs.link
+  - content.tooltips
+  - header.autohide
+  - navigation.expand
+  # - navigation.footer
+  - navigation.indexes
+  # - navigation.instant
+  # - navigation.instant.prefetch
+  # - navigation.instant.progress
+  # - navigation.prune
+  - navigation.sections
+  - navigation.tabs
+  # - navigation.tabs.sticky
+  - navigation.top
+  - navigation.tracking
+  - search.highlight
+  - search.share
+  - search.suggest
+  - toc.follow
   palette: 
     scheme: default
     primary: black
     accent: deep purple
-    toggle:
-      icon: material/toggle-switch
-      name: dark mode
+    # toggle:
+    #   icon: material/toggle-switch
+    #   name: dark mode
     # - scheme: slate
     #   primary: white
     #   accent: deep purple
     #   toggle:
     #     icon: material/toggle-switch-off-outline 
     #     name: light mode
-plugins: []
+
+  # palette:
+  # - media: "(prefers-color-scheme: light)"
+  #   primary: black
+  #   accent: deep purple
+  #   scheme: default
+  #   toggle:
+  #     icon: material/weather-night
+  #     name: switch to dark mode
+
+  # # Palette toggle for dark mode
+  # - media: "(prefers-color-scheme: dark)"
+  #   primary: amber
+  #   accent: teal
+  #   scheme: slate
+  #   toggle:
+  #     icon: material/weather-sunny
+  #     name: Switch to light mode
+    
+
+plugins:
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+      comments_path: "#__comments"
+  - blogging:
+      dirs: # The directories to be included
+        - Projects
+  # - blog
+  # - blog
+  # :
+  #     blog_dir: blog
+  #     post_dir: "{blog}/posts"
+  #     draft: true
+  #     enabled: false
+  #     authors_file: "{blog}/.authors.yml"
+  #     draft_on_serve: false
+  #     post_date_format: long
+
+
 markdown_extensions:
   - attr_list
   - def_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
   - pymdownx.highlight:
       anchor_linenums: false
   - pymdownx.inlinehilite
@@ -50,15 +129,27 @@ markdown_extensions:
       alternate_style: true
   - pymdownx.arithmatex:
       generic: true 
+  # Math support in md
+  - pymdownx.arithmatex:
+      generic: true
+
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  # - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+      
+
 extra:
   generator: false # To remove the made with Material for MkDocs line from footer.
   social:
     - icon: fontawesome/brands/linkedin 
       link: https://www.linkedin.com/in/tushar-dhyani/
-    - icon: fontawesome/brands/kaggle
-      link: https://kaggle.com/thanatoz
     - icon: fontawesome/brands/github 
       link: https://github.com/Thanatoz-1/
+    - icon: fontawesome/brands/kaggle
+      link: https://kaggle.com/thanatoz
     - icon: fontawesome/brands/twitter 
       link: https://twitter.com/t_dhyani
     - icon: fontawesome/brands/instagram 

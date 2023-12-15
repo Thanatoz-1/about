@@ -1,0 +1,4 @@
+mkdocs==1.5.3
+mkdocs-material==9.4.10
+mkdocs-rss-plugin
+mkdocs-blogging-plugin==2.2.11
