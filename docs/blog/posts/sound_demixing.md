@@ -23,7 +23,7 @@ Separating different sounds in a recording is called sound separation. In this p
 
 
 <center>
-<img class="center-block" style="max-width:750px;" src="https://ik.imagekit.io/tushard/Personal/projects/sound_demixing_banner_SE0lHotR6?updatedAt=1702507794406">
+![banner](https://ik.imagekit.io/tushard/Personal/projects/sound_demixing_banner_SE0lHotR6?updatedAt=1702507794406)
 </center>
 
 <!-- more -->
