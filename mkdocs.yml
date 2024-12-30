@@ -1,114 +1,28 @@
 site_name: Tushar Dhyani
+site_description: Tushar Dhyani's website
 site_url: https://tushardhyani.com/
-site_author: Tushar Dhyani
-
-site_description: >-
-  Welcome to Tushar's Dhyani's projects.
 theme:
   name: material
-  custom_dir: overrides
-  favicon: assets/images/favicon.png
-  logo: assets/images/favicon.png
-  font: 
-    text: Lusitana
-  static_templates:
-    - 404.html
-  # include_search_page: false
-  # search_index_only: true
-
-  # Default values, taken from mkdocs_theme.yml
-  language: en
-  # features:
-  #   - navigation.tabs
-  #   - navigation.top
-  #   - navigation.tracking
-  #   - header.autohide
-  #   - navigation.prune
-  #   - navigation.path:
-  #       max_length: 3
-  #   - content.tabs.link
-  features:
-  - announce.dismiss
-  - content.action.edit
-  - content.action.view
-  - content.code.annotate
-  - content.code.copy
-  # - content.code.select
-  # - content.tabs.link
-  - content.tooltips
-  - header.autohide
-  - navigation.expand
-  # - navigation.footer
-  - navigation.indexes
-  # - navigation.instant
-  # - navigation.instant.prefetch
-  # - navigation.instant.progress
-  # - navigation.prune
-  - navigation.sections
-  - navigation.tabs
-  # - navigation.tabs.sticky
-  - navigation.top
-  - navigation.tracking
-  - search.highlight
-  - search.share
-  - search.suggest
-  - toc.follow
   palette: 
-    scheme: default
-    primary: black
-    accent: deep purple
-    # toggle:
-    #   icon: material/toggle-switch
-    #   name: dark mode
-    # - scheme: slate
-    #   primary: white
-    #   accent: deep purple
-    #   toggle:
-    #     icon: material/toggle-switch-off-outline 
-    #     name: light mode
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Dark mode
+      primary: black
+      accent: deep_orange
 
-  # palette:
-  # - media: "(prefers-color-scheme: light)"
-  #   primary: black
-  #   accent: deep purple
-  #   scheme: default
-  #   toggle:
-  #     icon: material/weather-night
-  #     name: switch to dark mode
-
-  # # Palette toggle for dark mode
-  # - media: "(prefers-color-scheme: dark)"
-  #   primary: amber
-  #   accent: teal
-  #   scheme: slate
-  #   toggle:
-  #     icon: material/weather-sunny
-  #     name: Switch to light mode
-    
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-7
+        name: Light mode
+      primary: white
+      accent: light_blue
 
 plugins:
-  - rss:
-      match_path: blog/posts/.* 
-      date_from_meta:
-        as_creation: date
-      categories:
-        - categories
-        - tags
-      comments_path: "#__comments"
-  - blogging:
-      dirs: # The directories to be included
-        - Projects
-  # - blog
-  # - blog
-  # :
-  #     blog_dir: blog
-  #     post_dir: "{blog}/posts"
-  #     draft: true
-  #     enabled: false
-  #     authors_file: "{blog}/.authors.yml"
-  #     draft_on_serve: false
-  #     post_date_format: long
-
+  - search
+  - blog
 
 markdown_extensions:
   - attr_list
@@ -133,11 +47,11 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
 
-
 extra_javascript:
-  - javascripts/mathjax.js
+  # - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
   - https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  # - https://polyfill.io/v3/polyfill.min.js?features=es6
   # - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
       
 

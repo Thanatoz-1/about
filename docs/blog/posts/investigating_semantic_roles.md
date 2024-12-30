@@ -6,14 +6,11 @@ hide:
   - toc
 
 categories:
-  - university research
-  - text
+  - Research
+  - Text
 
 authors:
-  - thanatoz
-
-links:
-  - Projects/index.md
+  - tushar
 
 title: Investigating Semantic Roles for Emotion Role Prediction
 description: Project on semantic role labelling using neural networks to find the impact of semantic role features for emotion analysis. 
@@ -32,22 +29,12 @@ font-size: 2em;
 }
 </style>
 
+> A little detailed scientific report on this project is available on [Researchgate](https://www.researchgate.net/publication/355360232_Investigating_Semantic_Roles_for_Emotion_Role_Prediction). Please feel free to read and share your feedback with me over [email](mailto:dhyanitushar@gmail.com)
 
-<center>
+Emotion analysis primarily focuses on classifying, predicting and retrieving emotions and their related properties from text. However, only few research was conducted towards analyzing the semantic roles of emotions, i.e. who is experiencing which emotion, what caused it and what or whom is it directed towards. This project investigate the influence of semantic role labels on emotion role prediction. Building on top of previous approaches and resources, I've implemented a framework for predicting emotion roles using different features with co-researcher [Maximilian Wegge](https://www.researchgate.net/profile/Maximilian-Wegge). We find that semantic role label features have no significant influence on the task and identify two possible reasons for that.
+![emotion_roles](https://github.com/Thanatoz-1/EmotionStimuli/blob/main/docs/_static/image/sentence_exmaple.jpg?raw=true)
 
-# Investigating Semantic Roles for Emotion Role Prediction
-
-#### <p style="text-align: center;">Tushar Dhyani, Maximilian Wegge</p>
-<p style="text-align: center;">Institut für Maschinelle Sprachverarbeitung, University of Stuttgart</p>
-
-</center>
-
-<br/><br/>
-
-> A detailed scientific report on this project is available on [Researchgate](https://www.researchgate.net/publication/355360232_Investigating_Semantic_Roles_for_Emotion_Role_Prediction). Please feel free to read and share your feedback with me over [email](mailto:dhyanitushar@gmail.com)
-
-Emotion analysis primarily focuses on classifying, predicting and retrieving emotions and their related properties from text. However, only few research was conducted towards analyzing the semantic roles of emotions, i.e. who is experiencing which emotion, what caused it and what or whom is it directed towards. This project investigate the influence of semantic role labels on emotion role prediction. Building on top of previous approaches and resources, I've implemented a framework for predicting emotion roles using different features with co-researcher _Maximilian Wegge_. We find that semantic role label features have no significant influence on the task and identify two possible reasons for that.
-
+<!-- more -->
 This project was conducted under the supervision of [Dr. Roman Klinger](https://www.romanklinger.de/)
 
 ## What is Semantic Role Labelling?
@@ -56,7 +43,6 @@ In natural languages, we understand the _who_, _why_, _which_, _what_, etc. in a
 
 Semantic role labeling provides us with fine-grained control over emotion classification or prediction as we get a clear understanding of it. 
 
-![emotion_roles](https://github.com/Thanatoz-1/EmotionStimuli/blob/main/docs/_static/image/sentence_exmaple.jpg?raw=true)
 Here, **who (experiencer) feels which emotion (indicated by cue), which object, person, or instance the emotion is directed towards (target), and what evoked the emotion in the feeler (cause)**.
 
 ## Datasets used:

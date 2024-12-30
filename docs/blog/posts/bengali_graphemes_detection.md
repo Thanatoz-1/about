@@ -1,24 +1,21 @@
 ---
-draft: true 
+draft: false 
 date: 2023-01-31 
 hide:
 #   - navigation
   - toc
+
 categories:
-  - competition
-  - image
-  - text
+  - Competitions
+  - Vision
+  - Text
 
 authors:
-  - thanatoz
+  - tushar
 
-links:
-  - Projects/index.md
 
 title: Bengali Handwritten Grapheme detection
 description: Accelerate Bengali handwritten optical character recognition research and help enable the digitalization of educational resources. The problem is centered around given handwritten Bengali graphemes, to separately classify three constituent elements in the image - grapheme root, vowel diacritics, and consonant diacritics. 
-
-image: https://ik.imagekit.io/tushard/Personal/projects/An-example-of-a-Bengali-word-structure-A-Bengali-word-is-constructed-with-one-or-more_bIW-jlPKJ.png?updatedAt=1665614316790
 ---
 
 <style>
@@ -32,30 +29,16 @@ font-size: 2.1em;
 }
 </style>
 
-<center>
-
-# Bengali Handewritten Graphemes detection
-
-#### <p style="text-align: center;">Tushar Dhyani</p>
-<!-- <p style="text-align: center;">Institut für Maschinelle Sprachverarbeitung, University of Stuttgart</p> -->
-
-</center>
-
-
-
-## Understanding the problem
-<!-- <img src="https://ik.imagekit.io/tushard/Personal/projects/image_tzGm0Z0yIv.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665653075872"  style="float: right; margin-right: 15px; max-width:250px"> -->
-<p style="margin-top: 30px;">Automatic handwritten character recognition (HCR) and optical character recognition (OCR) are quite popular for commercial and academic reasons. For alpha-syllabary languages this problem increases manifolds due to its non-linear structure. Bengali, a member of alpha-syllabary family, is way trickier than English as it has 50 letters - 11 vowels and 39 consonants - plus 18 diacritics. This means there are roughly 13,000 ways to write Bengali letters, whereas English only has about 250 ways to do the same. This huge number of combinations makes recognizing Bengali characters a lot harder. These different elements has been shown below for a visual understanding. </p>
-
+## The problem
+<img src="https://ik.imagekit.io/tushard/Personal/projects/image_tzGm0Z0yIv.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665653075872"  style="float: right; margin-right: 0px; max-width:300px">
+<p style="margin-top: 30px;"> 
+Automatic handwritten character recognition (HCR) and optical character recognition (OCR) are quite popular for commercial and academic reasons. For alpha-syllabary languages this problem increases manifolds due to its non-linear structure. Bengali, a member of alpha-syllabary family, is way trickier than English as it has 50 letters - 11 vowels and 39 consonants - plus 18 diacritics. This means there are roughly 13,000 ways to write Bengali letters, whereas English only has about 250 ways to do the same. This huge number of combinations makes recognizing Bengali characters a lot harder. These different elements has been shown below for a visual understanding. </p>
+<!-- more -->
 
 <center>
 <img class="center-block" style="max-width:350px" src="https://ik.imagekit.io/tushard/Personal/projects/An-example-of-a-Bengali-word-structure-A-Bengali-word-is-constructed-with-one-or-more_bIW-jlPKJ.png?updatedAt=1665614316790">
 </center>
 
-
-<!-- <center>
-<!-- <img class="center-block" style="max-width:350px" src="https://ik.imagekit.io/tushard/Personal/projects/image_tzGm0Z0yIv.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665653075872"> 
-</center> -->
 
 <center>    
 <img class="center-block" style="max-width:500px" src="https://ik.imagekit.io/tushard/Personal/projects/image_44fFKWaVP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665654843220">
@@ -176,9 +159,9 @@ Models are evaluated using a hierarchical macro-averaged recall. First, a standa
 </table>
 </center>
 
-# Score on the leaderboard
+## Score on the leaderboard
 
-With the best backbone model that I had, I scored 55 on the private leaderboard and scored my first silver medal.
+With the best backbone model that I had, I scored 55 on the private leaderboard out of 2060 participants. This got me my first silver medal on [Kaggle](https://www.kaggle.com/competitions/bengaliai-cv19/leaderboard).
 <center>
 <img class="center-block" style="max-width:750px" src="https://ik.imagekit.io/tushard/Personal/projects/bengali_standings_kaggle_65Z-3_TIo.png?updatedAt=1702488780127">
 </center>

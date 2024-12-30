@@ -2,58 +2,41 @@
 draft: false 
 date: 2023-05-15 
 
-hide:
-#   - navigation
-  - toc
 categories:
-  - competitions
-  - audio
+  - Competitions
+  - Audio
 
 authors:
-  - thanatoz
+    - tushar
 
-links:
-  - Projects/index.md
-
-title: Sound demixing challenge.
-description: Using neural networks to solve the source separation problem. These audio inverse problems are mainly for sound demixing and cinematic demixing challenge. 
 ---
 
-<style>
-p{
-text-align: justify;
-text-justify: inter-word;
-}
-
-.MathJax {
-font-size: 2.1em;
-}
-</style>
-
-<center>
+<!-- <center>
 
 # Sound demixing challenge
 
 #### <p style="text-align: center;">Tushar Dhyani</p>
-<!-- <p style="text-align: center;">Institut für Maschinelle Sprachverarbeitung, University of Stuttgart</p> -->
-</center>
+</center> -->
+
+### Problem:
+Separating different sounds in a recording is called sound separation. In this project, I focused on just two uses: music and movies. When it comes to music, sound separation means pulling out voices and instruments from a song. For example, let's break down the parts of two songs that I found randomly. Thanks to the creators.
+
 
 <center>
 <img class="center-block" style="max-width:750px;" src="https://ik.imagekit.io/tushard/Personal/projects/sound_demixing_banner_SE0lHotR6?updatedAt=1702507794406">
 </center>
 
-### Problems:
+<!-- more -->
 
 > This project was a part of Sound demixing challenge organized by Sony on [AIcrowd](https://www.aicrowd.com/challenges/sound-demixing-challenge-2023). The report to this challenge is available [here](https://doi.org/10.3389/frsip.2021.808395).
 
-Separating different sounds in a recording is called sound separation. In this project, I focused on just two uses: music and movies. When it comes to music, sound separation means pulling out voices and instruments from a song. For example, let's break down the parts of two songs that I found randomly. Thanks to the creators.
 
 | Source   | Sound demixing sample                                                                                 | Sound demixing sample                                                                      |
 |----------|---------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| Mixture  | <audio controls controlsList="nodownload"><source src="../sound_separ_files/song1/mixture.wav" type="audio/flac"></audio> | <audio controls controlsList="nodownload"><source src="../sound_separ_files/song2/mixture.wav" type="audio/flac"></audio> | 
-| Vocals  | <audio controls controlsList="nodownload"><source src="../sound_separ_files/song1/vocals.wav" type="audio/flac"></audio> | <audio controls controlsList="nodownload"><source src="../sound_separ_files/song2/vocals.wav" type="audio/flac"></audio> | 
-| Drums  | <audio controls controlsList="nodownload"><source src="../sound_separ_files/song1/drums.wav" type="audio/flac"></audio> | <audio controls controlsList="nodownload"><source src="../sound_separ_files/song2/drums.wav" type="audio/flac"></audio> | 
-| Bass  | <audio controls controlsList="nodownload"><source src="../sound_separ_files/song1/bass.wav" type="audio/flac"></audio> | <audio controls controlsList="nodownload"><source src="../sound_separ_files/song2/bass.wav" type="audio/flac"></audio> |
+| Mixture  | <audio controls controlsList="nodownload"><source src="/blog/assets/audio/sound_separ_files/song1/mixture.wav" type="audio/flac"></audio> | <audio controls controlsList="nodownload"><source src="/blog/assets/audio/sound_separ_files/song2/mixture.wav" type="audio/flac"></audio> | 
+| Vocals  | <audio controls controlsList="nodownload"><source src="/blog/assets/audio/sound_separ_files/song1/vocals.wav" type="audio/flac"></audio> | <audio controls controlsList="nodownload"><source src="/blog/assets/audio/sound_separ_files/song2/vocals.wav" type="audio/flac"></audio> | 
+| Drums  | <audio controls controlsList="nodownload"><source src="/blog/assets/audio/sound_separ_files/song1/drums.wav" type="audio/flac"></audio> | <audio controls controlsList="nodownload"><source src="/blog/assets/audio/sound_separ_files/song2/drums.wav" type="audio/flac"></audio> | 
+| Bass  | <audio controls controlsList="nodownload"><source src="/blog/assets/audio/sound_separ_files/song1/bass.wav" type="audio/flac"></audio> | <audio controls controlsList="nodownload"><source src="/blog/assets/audio/sound_separ_files/song2/bass.wav" type="audio/flac"></audio> |
 
 The challenge was broadly divided into two tracks: Music demixing (MDX) and Cinematic sound demixing (CDX) but the aim was still similar. The complexity of the problem lay in sub-problems: Labelling noise (leaderboard A), Bleeding in recording (Leaderboard B) and General source separation (Leaderboard C). But due to contraints with time and training resources, I decided to stay with the general source separation.  
 

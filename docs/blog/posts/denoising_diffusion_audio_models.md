@@ -5,14 +5,11 @@ hide:
 #   - navigation
   - toc
 categories:
-  - university research
-  - audio
+  - Research
+  - Audio
 
 authors:
-  - thanatoz
-
-links:
-  - Projects/index.md
+  - tushar
 
 title: Denoising diffusion for speech enhancement
 description: We used simple diffusion for removing noise from the speech recordings. This project takes mel spectrograms and noises and denoises them for better speech intelligibility.
@@ -30,22 +27,16 @@ font-size: 2.1em;
 }
 </style>
 
-<center>
-# Speech enhancement on mel-spectrogram using denoising diffusion probablistic models.
-#### <p style="text-align: center;">Tushar Dhyani, Yung-Ching Yang</p>
-<p style="text-align: center;">Institut für Maschinelle Sprachverarbeitung, University of Stuttgart</p>
-
-</center>
-<br/><br/>
-
 > This research has been made available on [Researchgate](https://www.researchgate.net/publication/368883536_Diffusion_Denoising_Probabilistic_Model_-Speech_Enhancement_on_Wave). You can also send me a request over personal [email](mailto:dhyanitushar@gmail.com) to access a pdf copy of the report if you encounter some issues with the link above.
 
 ## Introduction
 Audio recordings in the real world are typically tainted by noise and other distortions. These distortions come from many factors such as environmental noises, and distortions from various kinds of electronics, circuits, and microphones. These noises and distortions cause issues during the perception of speech to the receiver. This project tries to provide a solution to the problem of noise in speech using a generative approach and compares the effectiveness of the generative approach over other existing approaches.
 
-A recent outbreak of generative models has pushed their capacity to generate high-fidelity data and one crucial class of such generative models is Diffusion models. Diffusion models, inspired by thermodynamic diffusion, are generative models that learn generation by learning to denoise diffused images. This could be an oversimplified explanation of an extremely convoluted approach in generative models. To understand diffusion, try to comprehend the image below. 
-
 <img class="center-block" src="https://ik.imagekit.io/tushard/Personal/projects/diffusion_process_MoQSfWfOA.png?ik-sdk-version=javascript-1.4.3&updatedAt=1665616832337">
+
+<!-- more -->
+A recent outbreak of generative models has pushed their capacity to generate high-fidelity data and one crucial class of such generative models is Diffusion models. Diffusion models, inspired by thermodynamic diffusion, are generative models that learn generation by learning to denoise diffused images. This could be an oversimplified explanation of an extremely convoluted approach in generative models. To understand diffusion, try to comprehend the above image. 
+
 
 ## How diffusion works.
 

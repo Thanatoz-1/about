@@ -7,6 +7,7 @@ hide:
   - tags
   - feedback
 ---
+
 #
 <style>
 body p{
@@ -49,36 +50,27 @@ img{
 	background:#E9E9E9;
 	text-decoration:none;
 }
+
 </style>
 
-
-<!-- <div class="container">       
-  <img src="https://ik.imagekit.io/tushard/Personal/20220608_161519_tight_crop_Y-30atN30.jpg?ik-sdk-version=javascript-1.4.3&updatedAt=1665080526838" class="rounded-circle mx-auto d-block" alt="Cinque Terre" width="250"> 
-</div> -->
-
-
-
 <figure markdown >
-  ![Image title](https://ik.imagekit.io/tushard/Personal/tushar_dhyani_lalLhSItd?ik-sdk-version=javascript-1.4.3&updatedAt=1665139437938){ width="180px" }
+  ![Image title](https://github.com/thanatoz-1.png){ width="180px" }
   <figcaption></figcaption>
 </figure>
 
 <center>
 <h1>Tushar Dhyani</h1>
 <div max_width="200px" markdown >
-I'm currently a Master's student at [University of Stuttgart](https://www.uni-stuttgart.de/), specializing in Computational Linguistics at the [Institute for Natural Language Processing](https://www.ims.uni-stuttgart.de/). My main focus within this field is on speech processing, speech restoration, and various audio inverse problems. My research interests concern speech and language processing with a particular emphasis on solving inverse problems through Generative AI.
-
+I'm research scientist at [Sony Europe B.V.](https://www.sony.com/en/SonyInfo/research/about/stuttgart-laboratory1/) (since 2024). I have completed my Master's in Computational Linguistics from [University of Stuttgart](https://www.uni-stuttgart.de/) (2021-2023). My research focuses on advancing speech processing, speech restoration, and addressing audio inverse problems and their evaluation methods. I am particularly passionate about leveraging Generative AI to tackle challenges in speech and language technology.
 
 </div>
 
+
 <div id="lead">
   <div id="lead-content">
-      <a href="./files/Tushar_dhyani_cv.pdf" target="_blank" class="btn-rounded-white">Download Resume</a> 
-      <a href="Projects/" class="btn-rounded-white">View my work</a> 
+      <a href="files/Tushar_dhyani_cv.pdf" target="_blank" class="btn-rounded-white">Download Resume</a> 
+      <a href="blog/" class="btn-rounded-white">View my work</a> 
   </div>
 </div>
 
 </center>
-
-
-
