@@ -56,6 +56,9 @@ extra_javascript:
       
 
 extra:
+  analytics:
+    provider: google
+    property: G-B5DPB5BF4B
   generator: false # To remove the made with Material for MkDocs line from footer.
   social:
     - icon: fontawesome/brands/linkedin 
